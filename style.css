@@ -13,7 +13,6 @@ body, input {
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background-color: #f2f2f2;
     overflow: hidden;
 }
 
@@ -23,4 +22,29 @@ body, input {
     height: 100%;
     top: 0;
     left: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 2.2rem;
+    color: #444;
+    margin-bottom: 20px; 
+}
+
+.input-field {
+    width: 100%;
+    max-width: 380px;
+    height: 50px;
+    background-color:#f0f0f0;
+    margin: 10px 0px;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 .5rem
 }
