@@ -89,3 +89,33 @@ form {
 .btn:hover {
     background-color: #00BFA6
 }
+
+.social-text {
+    padding: .7rem 0;
+    font-size: 1rem;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #333;
+    margin: 0 .45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    transition: .3s
+}
+
+.social-icon:hover {
+    color: #00BFA6;
+    border-color: #00BFA6
+}
