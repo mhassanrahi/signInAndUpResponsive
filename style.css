@@ -86,16 +86,16 @@ form.sign-up-form {
     background-color: #f0f0f0;
     margin: 10px 0;
     border-radius: 55px;
+    padding: 0 2rem;
     display: grid;
     grid-template-columns: 15% 85%;
-    padding: 0 .4rem
+    align-items: center;
 }
 
 .input-field i {
-    text-align: center;
     line-height: 55px;
     font-size: 1.1rem;
-    color: #acacac
+    color: #acacac;
 }
 
 .input-field input {
@@ -103,9 +103,9 @@ form.sign-up-form {
     border: none;
     outline: none;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 1.1rem;
-    color: #333
+    color: #333;
 }
 
 .input-field input::placeholder {
