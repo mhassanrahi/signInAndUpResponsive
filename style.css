@@ -25,7 +25,8 @@ body, input {
     background: linear-gradient(-45deg, #00BFA6, #679690);
     top: -10%;
     right: 48%;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    z-index: 6
 }
 
 .forms-container {
@@ -44,6 +45,7 @@ body, input {
  transform: translate(-50%, -50%);
  display: grid;
  grid-template-columns: 1fr;
+ z-index: 5;
 }
 
 form {
@@ -171,6 +173,7 @@ form.sign-up-form {
     align-items: flex-end;
     justify-content: space-around;
     text-align: center;
+    z-index: 7;
 }
 
 .panel .content {
@@ -200,13 +203,19 @@ form.sign-up-form {
 }
 
 .left-panel {
+    pointer-events: all;
     padding: 3rem 17% 2rem 12%
 }
 
 .right-panel {
+    pointer-events: none;
     padding: 3rem 12% 2rem 17%
 }
 
 .image {
     width: 100%;
+}
+
+.right-panel .content, .right-panel .image {
+    transform: translateX(800px)
 }
