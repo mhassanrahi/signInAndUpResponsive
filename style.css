@@ -168,7 +168,35 @@ form.sign-up-form {
 .panel {
     display: flex;
     flex-direction: column;
-    align-items: flex-end
+    align-items: flex-end;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.panel .content {
+    color: #fff;
+
+}
+
+.panel p {
+    font-size: 0.95rem;
+    padding: 0.7rem 0;
+}
+
+.panel h3 {
+    font-weight: 600;
+    line-height: 1;
+    font-size: 1.5em;
+}
+
+.btn.transparent {
+    margin: 0;
+    background: none;
+    border: 2px solid #fff;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 0.8rem;
 }
 
 .left-panel {
